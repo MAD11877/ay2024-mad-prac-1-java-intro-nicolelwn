@@ -8,9 +8,9 @@ public class Question4
      * Prints a right angle triangle with *. The base of the triangle depends on the integer given.
      *    e.g.
      *     > 5
+     *     *****
+     *     ****
      *     ***
-     *     **
-     *     *
      *     **
      *     *
      * 
@@ -19,10 +19,8 @@ public class Question4
 
     Scanner in = new Scanner(System.in);
 
-    // Prompt user for integer
     int integer = in.nextInt();
 
-    // Loop 
         for (int i = integer; i > 0; i--) 
         {
             for (int j = 0; j < i; j++) 
