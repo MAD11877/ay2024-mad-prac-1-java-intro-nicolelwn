@@ -22,6 +22,6 @@ public class Question4
     for (int i = num; i < (num + 1); i--) 
       do{
         System.out.print("*");
-      }while (num > 0)
+      }while (num > 0);
   }
 }
