@@ -22,7 +22,6 @@ public class Question4
     for (int i = num; i < (num + 1); i--) 
       while (num > 0) {
         System.out.print("*");
-        num --;
       }
   }
 }
