@@ -17,12 +17,13 @@ public class Question4
      * Hint: 2 loops are required. System.out.print(...) to print on single line.
      */
      
-      Scanner in = new Scanner(System.in);
-      int num = in.nextInt();
-      for (int i = num; i > 0; i--) {
-          for (int j = 0; j < i; j++) {
-              System.out.print("*");
-          }
-          System.out.println();
-      }
+    Scanner in = new Scanner(System.in);
+    int num = 5;
+    for (int i = num; i < (num + 1); i--) 
+      do{
+        System.out.print("*");
+        num --;
+      }while (num > 0);
+      System.out.println();
+  }
 }
