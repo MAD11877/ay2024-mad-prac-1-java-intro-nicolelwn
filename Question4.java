@@ -18,7 +18,7 @@ public class Question4
      */
      
     Scanner in = new Scanner(System.in);
-    int num = 5;
+    int num = in.nextInt();
     for (int i = num; i < (num + 1); i--) 
       for (num > 0){
         System.out.print("*");
