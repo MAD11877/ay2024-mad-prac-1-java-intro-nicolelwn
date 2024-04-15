@@ -20,10 +20,10 @@ public class Question4
     Scanner in = new Scanner(System.in);
     int num = 5;
     for (int i = num; i < (num + 1); i--) 
-      do{
+      for (num > 0){
         System.out.print("*");
         num --;
-      }while (num > 0);
+      }
       System.out.println();
   }
 }
