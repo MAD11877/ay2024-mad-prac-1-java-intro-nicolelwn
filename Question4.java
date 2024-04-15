@@ -18,8 +18,9 @@ public class Question4
      */
      
     Scanner in = new Scanner(System.in);
-    int num = 6;
-    for (int i = num; i < (num + 1); i--) {
+    int num = 5;
+    for (int i = num; i < (num + 1); i--) 
+    {
       System.out.print("*");
     }
     
