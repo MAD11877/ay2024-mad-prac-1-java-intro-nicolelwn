@@ -18,6 +18,10 @@ public class Question4
      */
      
     Scanner in = new Scanner(System.in);
+    int num = in.NextInt
+    while(i-- <= int) {
+      System.out.println(int);
+    }
     
   }
 }
