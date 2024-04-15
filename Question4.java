@@ -24,7 +24,5 @@ public class Question4
         System.out.print("*");
         num--;
       }
-    }
-    
   }
 }
